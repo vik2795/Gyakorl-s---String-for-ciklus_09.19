@@ -1,0 +1,8 @@
+void main() {
+  DateTime datetime = DateTime.now();
+
+  print("Óra " + datetime.hour.toString());
+  print("Perc " + datetime.minute.toString());
+  print("Másodperc " + datetime.second.toString());
+  
+}
